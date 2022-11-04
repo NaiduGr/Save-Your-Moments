@@ -1,0 +1,120 @@
+body{
+  background-color: black;
+}
+.main{
+  text-align: center;
+  position: relative;
+  margin: auto;
+  padding-top: 200px;
+ justify-content: center;
+
+}
+h1{
+  color: aqua;
+  margin-bottom: 20px;
+  
+}
+a{
+  color: white;
+text-decoration: none;
+margin:10px;
+
+}
+a:hover {
+  color: hotpink;
+}
+.normaltext{
+  margin-top: 20px;
+  color: grey;
+  
+}
+.labeltext{
+  color: grey;
+}
+.cardchild {
+  background-color: white;
+  display: inline-block;
+  padding:10px;
+  margin: 5px;
+  text-align: left;
+
+  
+  
+}
+.cards{
+  margin-top: 100px;
+  
+  justify-content: centre;
+  text-align: center;
+}
+
+.momenttext{
+  margin-top: 10px;
+  width:280px;
+  height:30px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  
+
+  
+}
+.inputtext{
+  display: none;
+}
+.fullmoment{
+
+  
+  margin-top:10%;
+  margin-left: auto;
+  margin-right: auto;
+  
+  padding:30px;
+  background-color: gray;
+  max-width:50%;
+  
+  justify-content: centre;
+  text-align: left;
+  
+}
+p{
+  word-wrap: break-word;
+}
+.fullmomenttext{
+  margin:1rem;
+}
+#footer {
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  margin-left: auto;
+  height: 40px;
+  color: gray;
+}
+.publicprivateinmomentpage{
+  margin: 20px;
+}
+.submitform{
+  margin-top: 100px;
+  margin-left:30%;
+  padding: 30px;
+ justify-content: centre;
+ text-align:left;
+ background-color: white;
+ max-width: 50%;
+}
+.submittext{
+
+  text-align: left;
+}
+.input-field{
+  margin:10px;
+ justify-content: center;
+}
+
+#body{
+  height:100px;
+  width:100%;
+}
+

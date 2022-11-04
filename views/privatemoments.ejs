@@ -1,0 +1,25 @@
+<%- include('partials/header') %>
+<div class="cards">
+  <%allFoundMoments.forEach(function(moment){ %>
+
+  <div class="cardchild">
+    <p><%=moment.name%></p>
+
+    <h4 class="momenttext"><%=moment.title%></h4>
+
+    <p class="momenttext"><%=moment.moment%></p>
+    <form action="/fullmoment" method="POST">
+      <input
+        type="text"
+        value="<%=moment.id%>"
+        name="momentId"
+        class="inputtext"
+      />
+      <button onclick="submit">Read More</button>
+    </form>
+  </div>
+
+  <% }); %>
+</div>
+
+<%- include('partials/footer') %>
